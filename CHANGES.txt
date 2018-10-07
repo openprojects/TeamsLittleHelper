@@ -1,0 +1,22 @@
+* ver 2.1
+	- Diplay dialog and close app if SD-card not found
+	- Can SAVE stats in sd-card, html format, for printing from pc
+
+* ver 2.0.1
+	- BUG FIXED in sorting players presence
+
+* ver 2.0
+	- Added TEAMS management. Every team owns roster, calendar, stats
+	- TEAMS can be RENAMED or DELETED
+	- Deleted EXIT button in main, use back button
+
+* ver 1.1unreleased
+	- Added "No future stats" in prefs section
+
+* ver 1.0.1
+	- Fixed resolution bug
+	- Fixed calendar_item and rowlayout vertical align
+	
+* ver 1.0
+	- Initial version
+	

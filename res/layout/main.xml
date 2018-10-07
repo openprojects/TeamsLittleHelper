@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/NiceButtonEndColor"
+	>
+
+	<include layout="@layout/header" 
+		android:id="@+id/headerPlace"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" />
+    
+	<Button 
+		android:id="@+id/btnTeams"
+		android:text="@string/teams" 
+
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerInParent="true"
+		android:layout_below="@+id/headerPlace"
+		android:background="@drawable/nice_button"
+		android:textColor="@android:color/white"
+		android:textSize="18sp"
+		android:shadowRadius="1"
+		android:shadowDx="1"
+		android:shadowDy="1"
+		android:shadowColor="@android:color/black"
+	></Button>  
+	
+	
+	<Button 
+		android:id="@+id/btnRosterManagement"
+		android:text="@string/gestione_roster" 
+
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerInParent="true"
+		android:layout_below="@+id/btnTeams"
+		android:background="@drawable/nice_button"
+		android:textColor="@android:color/white"
+		android:textSize="18sp"
+		android:shadowRadius="1"
+		android:shadowDx="1"
+		android:shadowDy="1"
+		android:shadowColor="@android:color/black"
+	></Button>  
+    
+	
+	<Button 
+		android:text="@string/open" 
+		android:id="@+id/openButton"
+		android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/btnRosterManagement"
+    	
+    	android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerInParent="true"
+		android:background="@drawable/nice_button"
+		android:textColor="@android:color/white"
+		android:textSize="18sp"
+		android:shadowRadius="1"
+		android:shadowDx="1"
+		android:shadowDy="1"
+		android:shadowColor="@android:color/black"
+	>
+	</Button>
+	
+	<Button 
+		android:layout_centerHorizontal="true"
+    	android:layout_below="@+id/openButton"
+		android:text="@string/stats" 
+		android:id="@+id/btnStats"
+		
+		android:layout_width="fill_parent"  
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_centerInParent="true"
+		android:background="@drawable/nice_button"
+		android:textColor="@android:color/white"
+		android:textSize="18sp"
+		android:shadowRadius="1"
+		android:shadowDx="1"
+		android:shadowDy="1"
+		android:shadowColor="@android:color/black"
+	>
+	</Button>
+	
+	
+
+	
+	
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/NiceButtonEndColor">
+  
+  <include layout="@layout/header" 
+		android:id="@+id/headerPlace"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" />
+
+  	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+	    <TextView android:layout_weight="1.0" android:text="@string/total_saved" android:id="@+id/totalSaved" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:layout_weight="1.0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:id="@+id/totalSavedValue"></TextView>
+	</LinearLayout>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/statsTable"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:spacing="40dip"
+	        android:stretchColumns="5"
+		    >
+		     <TableRow
+		          	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:padding="5dip">
+		          
+		          <TextView
+		            android:id="@+id/textView1"
+		            android:text="@string/player"
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:textSize="16sp"
+			    	android:textStyle="bold"
+		            android:textColor="@android:color/white" />
+		          <TextView
+		            android:id="@+id/textView2"
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:textSize="16sp"
+			    	android:textStyle="bold"
+		            android:text="@string/in_roster"
+		            android:textColor="@android:color/white" />
+		          <TextView
+		            android:id="@+id/textView3"
+		            android:text="@string/present"
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:textSize="16sp"
+			    	android:textStyle="bold"
+		            android:textColor="@android:color/white" />
+		          <TextView
+		            android:id="@+id/textView4"
+		            android:text="@string/late"
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:textSize="16sp"
+			    	android:textStyle="bold"
+		            android:textColor="@android:color/white" />
+		          <TextView
+		            android:id="@+id/textView5"
+		            android:text="@string/absent"
+		            android:layout_width="fill_parent"
+		            android:layout_weight="1.0"
+		            android:textSize="16sp"
+			    	android:textStyle="bold"
+		            android:textColor="@android:color/white" />
+		     </TableRow>
+		     
+		     <View
+			        android:layout_height="1dp"
+			        android:background="@color/NiceButtonStartColor" />
+		     
+		</TableLayout>
+	</ScrollView>
+	
+	
+	<LinearLayout android:id="@+id/bottom_control_bar"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" 
+        android:layout_centerInParent="true"
+		>
+		<Button 
+			android:id="@+id/save_stats"
+			android:text="@string/save_stats"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_centerInParent="true"
+			android:layout_alignParentTop="true"
+			android:background="@drawable/nice_button"
+			android:textColor="@android:color/white"
+			android:textSize="18sp"
+			android:shadowRadius="1"
+			android:shadowDx="1"
+			android:shadowDy="1"
+			android:shadowColor="@android:color/black" 
+		/>
+	</LinearLayout>
+	
+</LinearLayout>

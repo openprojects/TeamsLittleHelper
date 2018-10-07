@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Piccolo Aiutante della Squadra</string>
+    
+    <string name="gestione_roster">Giocatori</string>
+    <string name="teams">Squadre</string>
+    <string name="add_player">Aggiungi giocatore</string>
+    <string name="add_team">Aggiungi squadra</string>
+    <string name="rename_team">Rinomina squadra</string>
+    <string name="player_name">Nome del giocatore</string>
+    <string name="team_name">Nome della squadra</string>
+    <string name="save_stats">Salva Statistiche</string>
+    <string name="stats_saved_folder">Stats salvate nella cartella</string>
+    <string name="stats_credits">Esportato da \"Piccolo Aiutante della Squadra\" Android APP by Giorgio Pieretti</string>
+    
+    <string-array name="meeting_type">
+        <item>Allenamento</item>
+        <item>Partita in casa</item>
+        <item>Partita in trasferta</item>
+        <item>Incontro</item>
+    </string-array>
+    <string-array name="item_options">
+        <item>Rinomina</item>
+        <item>Elimina</item>
+    </string-array>
+    <string name="salva">Salva</string>
+    <string name="esci">Esci</string>
+    <string name="salvato">Salvato.</string>
+
+    <string name="delete">Elimino?</string>
+    <string name="delete_confirm">Sei sicuro di volerlo eliminare? </string>
+    <string name="delete_ok">File ELIMINATO correttamente.</string>
+    <string name="delete_ko">ERRORE, file non eliminato.</string>
+    <string name="pref">Preferenze</string>
+
+	<string name="open">Calendario</string>
+	<string name="stats">Statistiche</string>
+	<string name="total_saved">Totale giochi trovati: </string>
+	<string name="player">Giocatore</string>
+	<string name="in_roster">Nel roster</string>
+	<string name="present">Presente</string>
+	<string name="late">Ritardo</string>
+	<string name="absent">Assente</string>
+	
+	<string name="sectionMain">Menù principale</string>
+	<string name="sectionRoster">Roster di</string>
+	<string name="sectionCalendar">Calendario di</string>
+	<string name="sectionGame">Gestione Gioco</string>
+	<string name="sectionStats">Statistiche di</string>
+	<string name="sectionTeams">Gestione squadre</string>
+    
+    <string name="howTo">Instruzioni</string>
+    <string name="howToSummary">Instruzioni per usare l\' app</string>
+    <string name="howToMsg">
+Per prima cosa andare nella GESTIONE ROSTER ed aggiungere GIOCATORI. Per ELIMINARE un giocatore basta tenere premuto sul nome, per SALVARE basta tornare indietro.
+\n\nNel CALENDARIO tappare sul giorno in cui si vuole aggiungere un GIOCO, apparirà il ROSTER: ogni GIOCATORE ha un\' icona al suo fianco 
+per PRESENTE, IN RITARDO, ASSENTE. Per finire, tappare il pulsante SALVA.
+\n\nPer ELIMINARE un GIOCO inserito basta tenere premuto sul giorno nel CALENDARIO. Si può fare SWIPE sul nome del mese per cambiarlo velocemente.
+\n\nOgni volta che un GIOCO è salvato, anche il ROSTER viene salvato, quindi se successivamente lo modificate, i cambiamenti non influenzeranno i GIOCHI già salvati.
+\n\nLe STATISTICHE sono facili da capire :) 
+    </string>
+
+    <string name="prefStatsFuture">Stats nel futuro</string>    
+    <string name="prefStatsFutureSummary">Usa i giochi salvati in date future nelle statistiche </string>
+
+	<string name="noSDCard">Scheda per salvataggio dati (SD-card) non trovata.</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Team\'s Little Helper</string>
+    
+    <string name="gestione_roster">Players</string>
+    <string name="teams">Teams</string>
+    <string name="add_player">Add player</string>
+    <string name="add_team">Add team</string>
+    <string name="rename_team">Rename Team</string>
+    <string name="player_name">Player\'s name</string>
+    <string name="team_name">Team\'s name</string>
+    <string name="save_stats">Save Stats</string>
+    <string name="stats_saved_folder">Stats saved in folder</string>
+    <string name="stats_credits">Exported from \"Team\'s Little Helper\" Android APP by Giorgio Pieretti</string>
+    
+    <string-array name="meeting_type">
+        <item>Practice</item>
+        <item>Home Game</item>
+        <item>Away Game</item>
+        <item>Meeting</item>
+    </string-array>
+    <string-array name="item_options">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="salva">Save</string>
+    <string name="esci">Exit</string>
+    <string name="salvato">Saved.</string>
+    <string name="delete">Delete?</string>
+    <string name="delete_confirm">Are you sure you want to delete? </string>
+    <string name="delete_ok">Correctly DELETED.</string>
+    <string name="delete_ko">ERROR, no action taken.</string>
+    <string name="pref">Preferences</string>
+
+	<string name="open">Calendar</string>
+	<string name="stats">Statistics</string>
+	<string name="total_saved">Total games found: </string>
+	<string name="player">Player</string>
+	<string name="in_roster">In roster</string>
+	<string name="present">Present</string>
+	<string name="late">Late</string>
+	<string name="absent">Absent</string>
+	
+	<string name="sectionMain">Main menu</string>
+	<string name="sectionRoster">Roster of</string>
+	<string name="sectionCalendar">Calendar of</string>
+	<string name="sectionGame">Game management</string>
+	<string name="sectionStats">Statistics of</string>
+	<string name="sectionTeams">Teams management</string>
+    
+    <string name="howTo">How to</string>
+    <string name="howToSummary">Instructions for Teams Little Helper</string>
+    <string name="howToMsg">
+First of all go to ROSTER and add players. To DELETE a player just longpress on it, to save just get back.
+\n\nIn the CALENDAR tap the day you want to add game into, the ROSTER will appear: every PLAYER has an inline icon 
+for PRESENT, LATE, ABSENT. When done, tap the SAVE button.
+\n\nTo DELETE a GAME ENTRY just longpress it on the CALENDAR. Month names a swipable for fast change.
+\n\nEverytime a GAME is saved, the ROSTER is saved, so if you change the ROSTER your changes will not affect old GAMES.
+\n\nSTATISTICS are easy to understand :) 
+    </string>
+    
+    <string name="prefStatsFuture">Use future games</string>    
+    <string name="prefStatsFutureSummary">Use saved games later than today for statistics </string>
+    
+    <string name="noSDCard">External Storage (SD-card) not found.</string>
+    
+</resources>

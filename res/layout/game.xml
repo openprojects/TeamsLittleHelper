@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@color/NiceButtonEndColor">
+    
+    
+    <include layout="@layout/header" 
+		android:id="@+id/headerPlace"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" />
+    
+	<RelativeLayout 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/top_control_bar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+		</LinearLayout>	
+		
+	    
+    
+	    <LinearLayout android:id="@+id/bottom_control_bar"
+				android:layout_width="match_parent" 
+	    		android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true">
+				<Button 
+					android:layout_weight="1.0"
+					android:id="@+id/save"
+					android:text="@string/salva" 
+					
+					android:layout_width="fill_parent"  
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:layout_centerInParent="true"
+					android:background="@drawable/nice_button"
+					android:textColor="@android:color/white"
+					android:textSize="18sp"
+					android:shadowRadius="1"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowColor="@android:color/black" 
+					/>
+
+
+		</LinearLayout>
+		
+		
+	    <ListView android:id="@android:id/list" android:layout_width="fill_parent"
+	    	android:layout_above="@id/bottom_control_bar"
+	    	android:layout_below="@id/top_control_bar"
+	        android:layout_height="wrap_content" android:cacheColorHint="@color/NiceButtonEndColor"/>
+	
+	</RelativeLayout>
+	
+</LinearLayout>
